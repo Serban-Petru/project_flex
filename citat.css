@@ -1,10 +1,12 @@
 .citat{
     background-color: #E5E7EB;
     padding: 100px;
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .container-citat{
@@ -12,7 +14,9 @@
     flex-direction: column;
     gap: 20px;
     width: 800px;
-
+    max-width: 100%;
+    min-width: 0;
+    
 }
 
 .text-citat{
@@ -27,5 +31,6 @@
     display: flex;
     justify-content: end;
     font-size: 25px;
+    font-weight: bold;
 }
 

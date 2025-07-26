@@ -40,6 +40,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 70px;
+    gap:10px;
 }
 
 .big-text{
@@ -53,15 +54,7 @@ a{
     color:#E5E7EB;
 }
 
-.button button{
-    background-color: #3882F6;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 10px;
-    color: #F9FAF8;
-    font-weight: bold;
-    
-}
+
 
 .left{
     display: flex;
@@ -82,6 +75,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 50px 120px;
+    
     
 }
 

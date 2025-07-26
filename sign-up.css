@@ -1,0 +1,46 @@
+.contact{
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content{
+    display: flex;
+    align-items: center;
+
+}
+.first-line{ 
+    font-size: 25px;
+    color: white;
+}
+
+.second-line{ 
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.contact .button{
+    border: solid;
+    border-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+
+}
+
+.uhh{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+    gap:40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+}
